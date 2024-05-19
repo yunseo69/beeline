@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  letter-spacing: 1px;
+  font-family: "Platypi", serif;
+}
+
+span, a, label {
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 50px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.top__p {
+  margin-left: 15px;
+}
+
+.btn1 {
+  border: 2px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+.absent {
+  display: block;
+}
+
+.yoq {
+  display: none;
+}
+
+.btn2 {
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+.pic {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px 0;
+}
+
+.span {
+  color: black;
+  font-weight: bold;
+  background-color: yellow;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.container__p {
+  margin-top: 20px;
+  position: relative;
+}
+.container__p::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  bottom: -5px;
+  left: 0;
+}
+
+.btn3 {
+  margin-top: 10px;
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px 25px;
+  border-radius: 20px;
+}
+
+.price {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box {
+  width: 32%;
+  box-shadow: 0 0 5px grey;
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.lorem {
+  padding: 100px;
+  line-height: 1.6;
+}
+
+.h1 {
+  font-size: 352x;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px 50px;
+  position: relative;
+}
+
+.operator {
+  border: 2px solid yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 15px yellow;
+}
+
+.help {
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.divcha {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 100px;
+  z-index: 1;
+  text-align: center;
+}
+
+.forform {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-image: url(christmas_bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  z-index: 2;
+  display: none;
+}
+
+.list {
+  background-color: yellow;
+  width: 200px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.absent {
+  display: block;
+}
+
+.yoq {
+  display: none;
+}/*# sourceMappingURL=file.css.map */
